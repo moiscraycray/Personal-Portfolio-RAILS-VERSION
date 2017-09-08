@@ -16,15 +16,6 @@
     <!-- Landing video cover -->
 
     <section id="landing-cover-part" class="js-scroll-step">
-    <!-- <div class="hero-wrapper hidden-md-down">
-      <div class="hero">
-        <figure>
-          <video loop="loop" muted="muted" autoplay="autoplay">
-            <source src="./clovelly_edited.mp4"/>
-          </video>
-        </figure>
-      </div>
-    </div> -->
     <div class="video-background">
       <div class="video-foreground">
         <iframe src="https://www.youtube.com/embed/JwfX2JmtfrU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=JwfX2JmtfrU"
@@ -44,15 +35,22 @@
 
     <!-- end Landing video cover -->
 
+    <!-- This is for the fade in effects -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- see https://michalsnik.github.io/aos/
+    and see https://github.com/michalsnik/aos for instructions on how to use the fade effects -->
+
     <!-- About -->
     <div class="ultimate-bg">
-
 
     <section id="about-me-part" class="js-scroll-step">
 
     <div class="about-me-div">
 
       <div class="container">
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
         <br><br>
         <h1 class="main-heading about-heading">about me</h1>
         <div class="image-me">
@@ -92,6 +90,7 @@
           </div>
         </div> <!-- end interests line -->
 
+      </div><!-- end data-aos div -->
       </div> <!-- end container div -->
     </div> <!-- end about-me-div -->
     </section>
@@ -140,6 +139,7 @@
     <section id="skills-part" class="js-scroll-step">
     <div class="skills-div">
       <div class="container">
+        <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="3000">
         <h1 class="main-heading skills-heading">skills</h1>
 
         <div class="row skills-list">
@@ -159,7 +159,7 @@
             <i class="icon-ruby-on-rails-alt"></i>
           </div>
         </div> <!-- end row skills-list -->
-
+        </div> <!-- end fade in div-->
       </div> <!-- end container -->
     </div> <!-- skills-div -->
     </section>
@@ -168,7 +168,9 @@
     <!-- Portfoliio -->
     <section id="my-works-part" class="js-scroll-step">
     <div class="works-div">
-      <div class="container carousel-block">
+
+      <div class="container">
+        <div data-aos="fade-down-left" data-aos-delay="300" data-aos-duration="3000">
         <h1 class="main-heading works-heading">my works</h1>
 
         <div class="row portfolio">
@@ -182,7 +184,7 @@
             <a href="https://github.com/moiscraycray/Amaysim-web-app" target="_blank"><img class="portfolio-images" src="./images/amaysim_edited.png"  alt="Amaysim"></a>
           </div>
         </div> <!-- end row portfolio div -->
-
+        </div> <!-- end fade in div-->
       </div>  <!-- end container div -->
     </div> <!-- end works-div -->
     </section>
@@ -191,16 +193,15 @@
     <!-- Contact me -->
     <section id="contact-me-part" class="js-scroll-step">
     <div class="contact-me-div">
+
       <div class="container">
+        <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="3000">
         <h1 class="main-heading contact-heading">contact me</h1>
 
         <div class="row">
           <div class="col contact-me-icons">
             <i class="fa fa-envelope fa-1x" aria-hidden="true"></i> oliviatymo@gmail.com
           </div>
-          <!-- <div class="col contact-me-icons">
-            <i class="fa fa-mobile fa-1x" aria-hidden="true"></i> 0479 020 383
-          </div> -->
         </div>
 
         <div class="row">
@@ -221,6 +222,7 @@
           </div>
         </div>
 
+        </div> <!-- end fade in div -->
       </div> <!-- end container div -->
     </div> <!-- end contact-me-div -->
     </section>
@@ -230,3 +232,4 @@
 
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="fadein.js"></script>
