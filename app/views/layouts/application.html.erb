@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Olivia Mo | Portfolio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://use.fontawesome.com/bbdaecabea.js"></script> <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"> <!-- font mfizz cdn -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!-- google fonts -->
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png"> <!-- favicon -->
+
+    <script src="assets/javascripts/timeline.js" type="text/javascript" /> <!-- timeline -->
+
+  </head>
+
+  <body>
+    <%= yield %> <!-- never put anything before yield because those won't get displayed/read/process whatever -->
+      <%= javascript_include_tag('timeline.js') %>
+      <%= javascript_include_tag('nav.js') %>
+      
+  </body>
+</html>
