@@ -17,4 +17,3 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 # javascript
 Rails.application.config.assets.precompile += %w( timeline.js )
-Rails.application.config.assets.precompile += %w( nav.js )
