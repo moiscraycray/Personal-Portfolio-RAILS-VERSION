@@ -1,0 +1,50 @@
+/*PORTFOLIO SECTION*/
+.works-div {
+  height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .works-div {
+    min-height: 800px;
+  }
+  .portfolio-links img{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.works-heading {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.portfolio-links {
+  display: block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.portfolio img {
+  transition: box-shadow .5s;
+}
+
+.portfolio img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (min-width: 992px) {
+  .works-div {
+    min-height: 800px;
+  }
+  .portfolio-links img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+/*END PORTFOLIO SECTION*/

@@ -1,0 +1,37 @@
+
+/*CONTACT ME SECTION*/
+.contact-me-div {
+  height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .contact-me-div {
+    min-height: 800px;
+  }
+}
+.contact-heading {
+  padding-top: 25%;
+  padding-bottom: 5%;
+}
+.contact-me-icons {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.social-media-icons {
+  text-align: center;
+}
+
+.social-media-icons i{
+  color: rgba(0,0,0,0.75);
+}
+
+.social-media-icons i:hover {
+  color: black;
+}
+
+.social-media-icons i:visited {
+  color: rgba(0,0,0,0.75);
+}
+/*END CONTACT ME SECTION*/
