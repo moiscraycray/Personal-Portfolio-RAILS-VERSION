@@ -1,12 +1,12 @@
 <!-- Navigation -->
     <script type="text/javascript" src="nav.js"></script>
     <nav class="Quick-navigation content-to-hide">
-      <a href="#landing-cover-part" class="Quick-navigation-item">home</a> <!-- class Wuick must be capitalised -->
-      <a href="#about-me-part" class="Quick-navigation-item">about</a>
-      <a href="#timeline-part" class="Quick-navigation-item">timeline</a>
-      <a href="#skills-part" class="Quick-navigation-item">skills</a>
-      <a href="#my-works-part" class="Quick-navigation-item">portfolio</a>
-      <a href="#contact-me-part" class="Quick-navigation-item">contact</a>
+      <a data-scroll href="#landing-cover-part" class="Quick-navigation-item">home</a> <!-- class Wuick must be capitalised -->
+      <a data-scroll href="#about-me-part" class="Quick-navigation-item">about</a>
+      <a data-scroll href="#timeline-part" class="Quick-navigation-item">timeline</a>
+      <a data-scroll href="#skills-part" class="Quick-navigation-item">skills</a>
+      <a data-scroll href="#my-works-part" class="Quick-navigation-item">portfolio</a>
+      <a data-scroll href="#contact-me-part" class="Quick-navigation-item">contact</a>
       <div class="Scroll-progress-indicator"></div>
     </nav>
     <script type="text/javascript" src="nav.js"></script>
@@ -37,10 +37,6 @@
 
     <!-- end Landing video cover -->
 
-    <!-- This is for the fade in effects -->
-    <script>
-      AOS.init();
-    </script>
     <!-- see https://michalsnik.github.io/aos/
     and see https://github.com/michalsnik/aos for instructions on how to use the fade effects -->
 
@@ -239,3 +235,5 @@
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="nav.js"></script>
     <script type="text/javascript" src="fadein.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script> <!-- smooth scroll -->
+    <script>AOS.init();</script><!-- This is for the fade in effects -->
