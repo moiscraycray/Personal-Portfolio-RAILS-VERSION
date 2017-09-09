@@ -66,52 +66,10 @@ html, body {
   text-align: right;
 }
 
-.Quick-navigation-item:hover/*, .Quick-navigation-item.current*/ {
+.Quick-navigation-item:hover {
 	color: #fff;
 }
 
-// .Scroll-progress-indicator {
-// 	will-change: opacity, transform;
-// 	transition: all 0.5s;
-// 	left: -10px;
-// 	border-radius: 2px;
-// 	position: absolute;
-// 	top: 50%;
-// 	opacity: 0;
-// 	padding: 2em;
-// 	transform: translateX(200%) translateY(-50%);
-// 	background-color: rgba(0,0,0,0.1);
-// }
-
-// .Scroll-progress-indicator.visible {
-// 	transform: translateX(-100%) translateY(-50%);
-// 	opacity: 1;
-// }
-
-// .Scroll-to-top {
-// 	position: fixed;
-// 	right: 20px;
-// 	bottom: 0;
-// 	background-color: rgba(0,0,0,0.2);
-// 	border: none;
-// 	color: rgba(255,255,255,0.5);
-// 	font-size: 1.5rem;
-// 	padding: 0.5em;
-// 	cursor: pointer;
-// 	opacity: 0;
-// 	transform: translateY(100%);
-// 	transition: all 0.3s;
-// 	outline: none;
-// }
-
-// .Scroll-to-top.visible {
-// 	opacity: 1;
-// 	transform: translateY(0);
-// }
-
-// .Scroll-to-top:hover {
-// 	color: rgba(255,255,255,0.9);
-// }
 // END NAVIGATION
 
 /*LANDING COVER*/
