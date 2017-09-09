@@ -76,6 +76,6 @@ I also added a smooth scrolling effect because it also improved the user experie
 
 ## Personal logo
 
-I used [Canva](https://www.canva.com/) to create my logo.
+I used Canva to create my logo. It can be found in /public/images.
 
 The design process was relatively simple and quick; I googled personal logos for quick inspiration and I liked the ones that somehow included their names or initials. My logo are my initials and my last name; the circle around the M is the O of "Olivia" and "Mo". My logo can be read as "O.M.", "Mo", "Olivia Mo", or just "M". I added a line across because I thought it looked boring so I was adding random elements until it looked good.
