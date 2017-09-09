@@ -12,9 +12,13 @@ html, body {
 
 .scroll-down-here {
   color: rgba(255, 255, 255, 0.75);
+  position:relative;
+  bottom: 0;
 }
 .scroll-down-here span {
   color: rgba(255, 255, 255, 0.75);
+  position:relative;
+  bottom: 0;
 }
 
 .ultimate-bg {
