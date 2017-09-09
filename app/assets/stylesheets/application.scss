@@ -45,6 +45,16 @@ html, body {
    .content-to-hide {
       display: none;
    }
+   iframe {
+     display:none;
+     height: 0;
+     width: 0;
+     border: 0;
+     border: none;
+   }
+   .video-background {
+     background-color: black;
+   }
 } /* navigation will disappear when screen becomes too small */
 
 .Quick-navigation {
