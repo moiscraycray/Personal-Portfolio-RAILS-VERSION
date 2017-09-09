@@ -10,7 +10,7 @@
 
 - Where I get my inspiration for my style, aka [Pinterest](http://pin.it/cByaKLc) and even more [Pinterest](http://pin.it/l9GTVfv).
 
-- The wireframe is [here]https://www.figma.com/file/Xjwok3263COL6V5ln9ekrhLm/portfolio-wireframe). This was the original design. The final version retains most of the original design.
+- The wireframe is [here](https://www.figma.com/file/Xjwok3263COL6V5ln9ekrhLm/portfolio-wireframe). This was the original design. The final version retains most of the original design.
 
 - Design choices
 
