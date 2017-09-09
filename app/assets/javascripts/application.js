@@ -19,4 +19,4 @@
 //= require bootstrap-sprockets
 
 //= require timeline.js
-//= require nav.js
+//= require smoothscroll.js

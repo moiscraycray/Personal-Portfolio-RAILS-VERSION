@@ -72,6 +72,8 @@ I wanted to present a cleanly designed style so it's easy for users to access co
 
 One of the features I added was fade-in/fade-out effects. Initially, I was researching fade-effects for Carmen but she didn't want to use my solution because it didn't do exactly what she wanted, so I used it for my own portfolio. The fade-effects I found was conveniently built by somebody else and they helpfully included a [github](https://github.com/michalsnik/aos) for instructions. They also included a [demo](https://michalsnik.github.io/aos/) site to showcase all the different effects and customization options. After adding the effects, I felt the user experience had improved.
 
+Another feature I added was an [animated timeline](https://codepen.io/tutsplus/pen/QNeJgR?q=vertical+timeline&limit=all&type=type-pens) for the experience. I added it in because it feels like an improvement to user experience.
+
 Following Jamie's advice, I also added a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page.
 
 ## Personal logo
