@@ -1,264 +1,287 @@
-<!-- Navigation -->
-  <nav class="Quick-navigation content-to-hide">
-    <a data-scroll href="#landing-cover-part" class="Quick-navigation-item">home</a> <!-- class Wuick must be capitalised -->
-    <a data-scroll href="#about-me-part" class="Quick-navigation-item">about</a>
-    <a data-scroll href="#timeline-part" class="Quick-navigation-item">timeline</a>
-    <a data-scroll href="#skills-part" class="Quick-navigation-item">skills</a>
-    <a data-scroll href="#my-works-part" class="Quick-navigation-item">portfolio</a>
-    <a data-scroll href="#contact-me-part" class="Quick-navigation-item">contact</a>
-    <a data-scroll href="/welcome/sitemap" class="Quick-navigation-item">site map</a>
-  </nav>
+<!-- Navigation for LARGE SCREENS ONLY -->
+<nav class="Quick-navigation content-to-hide">
+  <a href="#landing-cover-part" class="Quick-navigation-item">home</a> <!-- class Quick must be capitalised -->
+  <a href="#about-me-part" class="Quick-navigation-item">about</a>
+  <a href="#timeline-part" class="Quick-navigation-item">timeline</a>
+  <a href="#skills-part" class="Quick-navigation-item">skills</a>
+  <a href="#my-works-part" class="Quick-navigation-item">portfolio</a>
+  <a href="#contact-me-part" class="Quick-navigation-item">contact</a>
+  <a href="/welcome/sitemap" class="Quick-navigation-item">site map</a>
+</nav>
+<!-- end Navigation. see https://codepen.io/moiscraycray/pen/gxyJWz-->
+<!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- end navigation for LARGE SCREENS -->
 
-    <!-- end Navigation. see https://codepen.io/moiscraycray/pen/gxyJWz-->
-    <!-- https://github.com/cferdinandi/smooth-scroll -->
+<!-- Navigation for SMALL SCREENS ONLY -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark small-screen-nav">
 
-    <!-- Landing video cover -->
-  <section id="landing-cover-part" class="js-scroll-step">
-    <div class="video-background">
-      <div class="video-foreground">
-        <iframe src="https://www.youtube.com/embed/JwfX2JmtfrU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=JwfX2JmtfrU"
-        frameborder="0" allowfullscreen></iframe>
-      </div>
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="nav-item nav-link" href="#landing-cover-part">home</a>
+      <a class="nav-item nav-link" href="#about-me-part">about</a>
+      <a class="nav-item nav-link" href="#timeline-part">timeline</a>
+      <a class="nav-item nav-link" href="#skills-part">skills</a>
+      <a class="nav-item nav-link" href="#my-works-part">portfolio</a>
+      <a class="nav-item nav-link" href="#contact-me-part">contact</a>
+      <a class="nav-item nav-link" href="/welcome/sitemap">site map</a>
     </div>
 
-    <div class="container logo-img">
-      <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="3000">
-        <img class="img-responsive" src="./images/transparent_m_white.png" alt="M-logo">
-      </div>
+  </div><!-- end container -->
+</nav>
+<!-- end navigation for SMALL SCREENS -->
+
+<!-- Landing video cover -->
+<section id="landing-cover-part" class="js-scroll-step">
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe src="https://www.youtube.com/embed/JwfX2JmtfrU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=JwfX2JmtfrU"
+      frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="container scroll-down-here">
-      <h4>scroll</h4>
-      <span>▼</span>
+  </div>
+
+  <div class="container logo-img">
+    <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="3000">
+      <img class="img-responsive" src="./images/transparent_m_white.png" alt="M-logo">
     </div>
+  </div>
+  <div class="container scroll-down-here">
+    <h4>scroll</h4>
+    <span>▼</span>
+  </div>
 
-  </section>
-    <!-- video parallax https://codepen.io/ezeikel/pen/rVdbQE -->
+</section>
+  <!-- video parallax https://codepen.io/ezeikel/pen/rVdbQE -->
 
-    <!-- end Landing video cover -->
+  <!-- end Landing video cover -->
 
-    <!-- see https://michalsnik.github.io/aos/
-    and see https://github.com/michalsnik/aos for instructions on how to use the fade effects -->
+  <!-- see https://michalsnik.github.io/aos/
+  and see https://github.com/michalsnik/aos for instructions on how to use the fade effects -->
 
-    <!-- About -->
-  <div class="ultimate-bg"> <!-- this is the gradient background -->
+  <!-- About -->
+<div class="ultimate-bg"> <!-- this is the gradient background -->
 
-    <section id="about-me-part" class="js-scroll-step">
+  <section id="about-me-part" class="js-scroll-step">
 
-      <div class="about-me-div">
-        <div class="container">
+    <div class="about-me-div">
+      <div class="container">
 
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-            <br><br>
-            <h1 class="main-heading about-heading">about me</h1>
-            <div class="image-me">
-              <img class="me" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA26AAAAJDI5YjM2ZGFkLWQ5YTItNGEwOC05MDBhLWU3MGJmM2VhYjM1Mw.jpg" alt="olivia">
-            </div>
-          </div> <!-- end fade up div -->
-
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-            <div class="row about-me">
-              <div class="col"></div>
-              <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
-                <p>Hi, I'm Olivia Mo. My friends call me "mo" or "momo" I'm an aspiring fullstack developer based in Sydney, Australia.</p>
-                <p>I like ideas, especially weird, wacky, or simple ones.
-                  The best part is having fun while building them.
-                  When I'm not building apps, you can find me chilling around the eastern beaches.
-                  Otherwise, I'll be wrecking noobs on Overwatch.
-                </p>
-              </div>
-              <div class="col"></div>
-            </div> <!-- end row "about-me" -->
-
-            <br><br>
-
-            <div class="interests">
-              <div class="row">
-                <div class="col">
-                  <h6>my interests</h6>
-                </div> <!-- end col div -->
-              </div> <!-- end row div -->
-            </div> <!-- end interest div -->
-
-            <div class="row interest-icons-row"> <!-- font awesome icons -->
-              <div class="col">
-                <i class="fa fa-gamepad fa-3x interest-icons" aria-hidden="true"></i>
-                <i class="fa fa-paw fa-3x interest-icons" aria-hidden="true"></i>
-                <i class="fa fa-film fa-3x interest-icons" aria-hidden="true"></i>
-                <i class="fa fa-rebel fa-3x interest-icons" aria-hidden="true"></i>
-                <i class="fa fa-cutlery fa-3x interest-icons" aria-hidden="true"></i>
-              </div>
-            </div> <!-- end row div -->
-
-          </div> <!-- end fade up line -->
-
-        </div> <!-- end container div -->
-      </div> <!-- end about-me-div -->
-
-    </section>
-    <!-- end about -->
-
-    <!-- What I've been up to  -->
-    <section id="timeline-part" class="js-scroll-step">
-
-      <div class="experience-div">
-
-        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
-          <h1 class="main-heading experience-heading">what i've been up to</h1>
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
+          <br><br>
+          <h1 class="main-heading about-heading">about me</h1>
+          <div class="image-me">
+            <img class="me" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA26AAAAJDI5YjM2ZGFkLWQ5YTItNGEwOC05MDBhLWU3MGJmM2VhYjM1Mw.jpg" alt="olivia">
+          </div>
         </div> <!-- end fade up div -->
 
         <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-          <section class="timeline">
-            <ul>
-              <li>
-                <div>
-                  <time>2017</time> Started Coder Academy
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>2016</time> Graduated from UNSW with BA Media (Public Relations & Advertising)
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>2016</time> Volunteered as cast in CSE Revue "Star Wars: The Source Awakens"
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>2015</time> General Store Manager at The Enigma Room PTY LTD
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>2013</time> Started studying at UNSW
-                </div>
-              </li>
-            </ul>
-          </section>
-        </div> <!-- end fade up div -->
+          <div class="row about-me">
+            <div class="col"></div>
+            <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+              <p>Hi, I'm Olivia Mo. My friends call me "mo" or "momo". I'm an aspiring fullstack developer based in Sydney, Australia.</p>
+              <p>I like ideas, especially weird, wacky, or simple ones.
+                The best part is having fun while building them.
+                When I'm not building apps, you can find me chilling around the eastern beaches taking photos of doggos.
+                Otherwise, I'll be wrecking noobs on Overwatch.
+              </p>
+            </div>
+            <div class="col"></div>
+          </div> <!-- end row "about-me" -->
 
-      </div> <!-- end experience div -->
+          <br><br>
 
-    </section>
-    <!-- end What I've been up to  -->
-
-    <!-- Skills -->
-    <section id="skills-part" class="js-scroll-step">
-
-      <div class="skills-div">
-        <div class="container">
-
-          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
-            <h1 class="main-heading skills-heading">skills</h1>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-            <div class="row skills-list">
-
-              <div class="col-sm-12 col-md-6 col-lg">
-                <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg">
-                <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg font-mfizz">
-                <i class="icon-ruby"></i> <!-- Had to use mfizz for the following icons because font awesome is missing them -->
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg font-mfizz">
-                <i class="icon-bootstrap"></i>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg font-mfizz">
-                <i class="icon-ruby-on-rails-alt"></i>
-              </div>
-
-            </div> <!-- end row skills-list -->
-          </div> <!-- end fade right div-->
-
-        </div> <!-- end container -->
-      </div> <!-- skills-div -->
-
-    </section>
-    <!-- end Skills -->
-
-    <!-- Portfoliio -->
-    <section id="my-works-part" class="js-scroll-step">
-
-      <div class="works-div">
-        <div class="container">
-
-          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
-            <h1 class="main-heading works-heading">my works</h1>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-            <div class="row portfolio">
-
-              <div class="col-sm-12 col-md-4 col-lg-4 portfolio-links">
-                <a href="https://github.com/moiscraycray/CFA---Project-1" target="_blank"><img class="portfolio-images" src="./images/trent_edited.png" alt="Trent or Not"></a>
-              </div>
-              <div class="col-sm-12 col-md-4 col-lg-4 portfolio-links">
-                <a href="https://github.com/moiscraycray/Tokyo-Olympics-2020" target="_blank"><img class="portfolio-images" src="./images/tokyo_edited.png" alt="Tokyo Olympics 2020 Redesign Homepage"></a>
-              </div>
-              <div class="col-sm-12 col-md-4 col-lg-4 portfolio-links">
-                <a href="https://github.com/moiscraycray/Amaysim-web-app" target="_blank"><img class="portfolio-images" src="./images/amaysim_edited.png"  alt="Amaysim"></a>
-              </div>
-
-            </div> <!-- end row portfolio div -->
-          </div> <!-- end fade left div-->
-
-        </div>  <!-- end container div -->
-      </div> <!-- end works-div -->
-
-    </section>
-    <!-- end Portfoliio -->
-
-    <!-- Contact me -->
-    <section id="contact-me-part" class="js-scroll-step">
-
-      <div class="contact-me-div">
-        <div class="container">
-
-          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
-            <h1 class="main-heading contact-heading">contact me</h1>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="3000">
+          <div class="interests">
             <div class="row">
-              <div class="col contact-me-icons">
-                <i class="fa fa-envelope fa-1x" aria-hidden="true"></i> oliviatymo@gmail.com
+              <div class="col">
+                <h6>my interests</h6>
+              </div> <!-- end col div -->
+            </div> <!-- end row div -->
+          </div> <!-- end interest div -->
+
+          <div class="row interest-icons-row"> <!-- font awesome icons -->
+            <div class="col">
+              <i class="fa fa-gamepad fa-3x interest-icons" aria-hidden="true"></i>
+              <i class="fa fa-paw fa-3x interest-icons" aria-hidden="true"></i>
+              <i class="fa fa-film fa-3x interest-icons" aria-hidden="true"></i>
+              <i class="fa fa-rebel fa-3x interest-icons" aria-hidden="true"></i>
+              <i class="fa fa-cutlery fa-3x interest-icons" aria-hidden="true"></i>
+            </div>
+          </div> <!-- end row div -->
+
+        </div> <!-- end fade up line -->
+
+      </div> <!-- end container div -->
+    </div> <!-- end about-me-div -->
+
+  </section>
+  <!-- end about -->
+
+  <!-- What I've been up to  -->
+  <section id="timeline-part" class="js-scroll-step">
+
+    <div class="experience-div">
+
+      <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="3000">
+        <h1 class="main-heading experience-heading">what i've been up to</h1>
+      </div> <!-- end fade up div -->
+
+      <!-- timeline -->
+      <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
+        <section class="timeline">
+          <ul>
+            <li>
+              <div>
+                <time>2017</time> Started Coder Academy
               </div>
+            </li>
+            <li>
+              <div>
+                <time>2016</time> Graduated from UNSW with BA Media (Public Relations & Advertising)
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2016</time> Volunteered as cast in CSE Revue "Star Wars: The Source Awakens"
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2015</time> General Store Manager at The Enigma Room PTY LTD
+              </div>
+            </li>
+            <li>
+              <div>
+                <time>2013</time> Started studying at UNSW
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div> <!-- end fade up div -->
+
+    </div> <!-- end experience div -->
+
+  </section>
+  <!-- end What I've been up to  -->
+
+  <!-- Skills -->
+  <section id="skills-part" class="js-scroll-step">
+
+    <div class="skills-div">
+      <div class="container">
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="3000">
+          <h1 class="main-heading skills-heading">skills</h1>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
+          <div class="row skills-list">
+
+            <div class="col-sm-12 col-md-6 col-lg">
+              <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg">
+              <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg font-mfizz">
+              <i class="icon-ruby"></i> <!-- Had to use mfizz for the following icons because font awesome is missing them -->
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg font-mfizz">
+              <i class="icon-bootstrap"></i>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg font-mfizz">
+              <i class="icon-ruby-on-rails-alt"></i>
+            </div>
+
+          </div> <!-- end row skills-list -->
+        </div> <!-- end fade right div-->
+
+      </div> <!-- end container -->
+    </div> <!-- skills-div -->
+
+  </section>
+  <!-- end Skills -->
+
+  <!-- Portfoliio -->
+  <section id="my-works-part" class="js-scroll-step">
+
+    <div class="works-div">
+      <div class="container">
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="3000">
+          <h1 class="main-heading works-heading">my works</h1>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
+          <div class="row portfolio">
+
+            <div class="col-sm-12 col-md-12 col-lg-4 portfolio-links">
+              <a href="https://github.com/moiscraycray/CFA---Project-1" target="_blank"><img class="portfolio-images" src="./images/trent_edited.png" alt="Trent or Not"></a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 portfolio-links">
+              <a href="https://github.com/moiscraycray/Tokyo-Olympics-2020" target="_blank"><img class="portfolio-images" src="./images/tokyo_edited.png" alt="Tokyo Olympics 2020 Redesign Homepage"></a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 portfolio-links">
+              <a href="https://github.com/moiscraycray/Amaysim-web-app" target="_blank"><img class="portfolio-images" src="./images/amaysim_edited.png"  alt="Amaysim"></a>
+            </div>
+
+          </div> <!-- end row portfolio div -->
+        </div> <!-- end fade left div-->
+
+      </div>  <!-- end container div -->
+    </div> <!-- end works-div -->
+
+  </section>
+  <!-- end Portfoliio -->
+
+  <!-- Contact me -->
+  <section id="contact-me-part" class="js-scroll-step">
+
+    <div class="contact-me-div">
+      <div class="container">
+
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="3000">
+          <h1 class="main-heading contact-heading">contact me</h1>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="3000">
+          <div class="row">
+            <div class="col contact-me-icons">
+              <i class="fa fa-envelope fa-1x" aria-hidden="true"></i> oliviatymo@gmail.com
             </div>
           </div>
+        </div>
 
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg social-media-icons">
-                <a href="https://stackoverflow.com/users/6147947/cheese425?tab=profile" target="_blank"><i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg social-media-icons">
-                <a href="https://www.facebook.com/oliviatmo" target="_blank"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg social-media-icons">
-                <a href="https://www.linkedin.com/in/olivia-mo-b13333b6/" target="_blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg social-media-icons">
-                <a href="https://steamcommunity.com/id/imdagiver" target="_blank"><i class="fa fa-steam-square fa-5x" aria-hidden="true"></i></a>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg social-media-icons">
-                <a href="https://github.com/moiscraycray" target="_blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
-              </div>
-            </div> <!-- end row div -->
-          </div> <!-- end fade in div -->
+        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg social-media-icons">
+              <a href="https://stackoverflow.com/users/6147947/cheese425?tab=profile" target="_blank"><i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg social-media-icons">
+              <a href="https://www.facebook.com/oliviatmo" target="_blank"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg social-media-icons">
+              <a href="https://www.linkedin.com/in/olivia-mo-b13333b6/" target="_blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg social-media-icons">
+              <a href="https://steamcommunity.com/id/imdagiver" target="_blank"><i class="fa fa-steam-square fa-5x" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg social-media-icons">
+              <a href="https://github.com/moiscraycray" target="_blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
+            </div>
+          </div> <!-- end row div -->
+        </div> <!-- end fade in div -->
 
-        </div> <!-- end container div -->
-      </div> <!-- end contact-me-div -->
+      </div> <!-- end container div -->
+    </div> <!-- end contact-me-div -->
 
-    </section>
-    <!-- end Contact me -->
+  </section>
+  <!-- end Contact me -->
 
-  </div><!-- end ultimate-bg div -->
+</div><!-- end ultimate-bg div -->
 
-  <script type="text/javascript" src="timeline.js"></script>
-  <script type="text/javascript" src="fadein.js"></script>
-  <script>AOS.init();</script><!-- This is for the fade in effects -->
+<script type="text/javascript" src="timeline.js"></script>
+<script type="text/javascript" src="fadein.js"></script>
+<script>AOS.init();</script><!-- This is for the fade in effects -->

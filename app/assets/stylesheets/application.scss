@@ -25,42 +25,44 @@ html, body {
   bottom: 0;
 }
 
-.ultimate-bg {
+.ultimate-bg { // The background of the entire page
   background-color: #ffffff;
   background-image: linear-gradient(0deg, #ffffff 0%, #fba6c2 50%, #B5FFFC 100%);
   /*from grabient*/
 }
-
-// SITE MAP
-.site-map-heading {
-  text-align: center;
-  margin-top: 20%;
-  font-family: 'Raleway', sans-serif;
-}
-
-.site-map-link {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
-// END SITE MAP
 
 // NAVIGATION and VIDEO
 @media (max-width: 767px) {
     .content-to-hide {
       display: none;
    }
-   iframe {
+    iframe {
       display:none;
       height: 0;
       width: 0;
       border: 0;
       border: none;
-   }
-   .video-background, .video-foreground {
+    }
+    .video-background, .video-foreground {
       background-color: black;
       z-index: 98;
-   }
-} /* navigation and video will disappear when screen becomes too small */
+    }
+    .img-responsive {
+      margin-top: 20%;
+    }
+} /* large-screen-navigation and video will disappear when screen becomes too small */
+
+@media (min-width: 768px) {
+  .small-screen-nav {
+    display: none;
+  }
+} /* small-screen-nav is hidden when screen is too big */
+
+.small-screen-nav a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
 
 .Quick-navigation {
 	position: fixed;
@@ -125,7 +127,7 @@ html, body {
   .vid-info .acronym { display: none; }
 }
 
-.logo-img img{
+.img-responsive {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -481,3 +483,16 @@ time {
   color: rgba(0,0,0,0.75);
 }
 /*END CONTACT ME SECTION*/
+
+// SITE MAP
+.site-map-heading {
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.site-map-link {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+// END SITE MAP

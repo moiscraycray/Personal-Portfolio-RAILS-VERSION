@@ -48,7 +48,9 @@ I've written some notes on the wireframe in Figma on what elements I could use i
 
 Since I like websites that required little effort from the user to get to the content, I designed my portfolio the same way: all content is on one page and the user just needs to scroll down to see them.
 
-There is a navigation but instead of going to different pages and having to load them, the screen moves around the page to the section the user wants. To add to the clean style, I added a smooth scrolling effect for a better user experience.
+There is a navigation but instead of going to different pages and having to load them, the screen moves around the page to the section the user wants. To add to the clean style, I tried to add a smooth scrolling effect for a better user experience.
+
+I have two styles of navigation built; one for larger screens and another for mobile devices with smaller screens. The reason for two designs is because I prefer to have the navigation out of the way; as in fixed to the side of the screen without a background so it doesn't make the page look disjointed as if it were a traditional navigation bar at the top. However, mobile devices only have so much screen space, I couldn't fit both the navigation and the content without them overlapping each other. Thus, I built another navigation for this purpose; this a traditional navigation bar fixed to the top of the screen with a collapsable button.
 
 One of the designs I've seen is the landing page, the first thing that the user sees. I like websites that have a massive image or video that covers the whole screen with minimal text. I like them because it generally offers a better user experience.
 
@@ -78,7 +80,7 @@ Another feature I added was an [animated timeline](https://codepen.io/tutsplus/p
 
 Following Jamie's advice, I also wanted to add a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page. The code worked fine when it's not on rails, but the code didn't want to cooperate when on rails.
 
-I found an alternate solution using [jQuery](https://css-tricks.com/snippets/jquery/smooth-scrolling/) but oddly, it only works on local host and not heroku. Removed turbolinks
+I found an alternate solution using [jQuery](https://css-tricks.com/snippets/jquery/smooth-scrolling/) but oddly, it only works on local host and not heroku. This works on local host but not when deployed to heroku.
 
 Another feature I added was a wiggle animation for my icons in the "about me" section. I added the animations because I thought it was cute and make the website more interesting to the user.
 
@@ -87,3 +89,11 @@ Another feature I added was a wiggle animation for my icons in the "about me" se
 I used Canva to create my logo because it was free and offered easy to use interface. It can be found in /public/images.
 
 The design process was relatively simple and quick; I googled personal logos for quick inspiration and I liked the ones that somehow included their names or initials. My logo are my initials and my last name; the circle around the M is the O of "Olivia" and "Mo". My logo can be read as "O.M.", "Mo", "Olivia Mo", or just "M". I added a line across because I thought it looked boring so I was adding random elements until it looked good.
+
+# Future designs
+
+Due to limited time, I left out some features.
+
+I would like to implement a function for the side navigation where it initially appears invisible, and fades in as the user scrolls away from the cover video.
+
+I would also like to fix the smooth scrolling effect in the future.
