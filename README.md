@@ -56,6 +56,8 @@ I decided to use a video because I thought it will make the page more interestin
 
 After scrolling down the video, each section (about, portfolio, contact etc) of the portfolio will take up the whole screen, so there'll be minimal text and prevents the current view becoming cluttered.
 
+I added a site map because it was a requirement.
+
 ## Colours
 
 Throughout building the portfolio, the colours were always changing because I'm not a design-oriented person so I was always changing my mind when it came to colours.
