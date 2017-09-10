@@ -74,9 +74,9 @@ One of the features I added was fade-in/fade-out effects. Initially, I was resea
 
 Another feature I added was an [animated timeline](https://codepen.io/tutsplus/pen/QNeJgR?q=vertical+timeline&limit=all&type=type-pens) for the experience. I added it in because it feels like an improvement to user experience.
 
-Following Jamie's advice, I also wanted to add a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page. The code worked fine when it's not on rails, but the code didn't want to cooperate when on rails.
+Following Jamie's advice, I also wanted to add a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page. The code worked fine when it's not on rails, but the code didn't want to cooperate when on rails. Fortunately, the next day I found an alternate solution using [jQuery](https://css-tricks.com/snippets/jquery/smooth-scrolling/).
 
-Another feature I added was a wiggle animation for my icons in the "about me" section. I added the animations because I thought it was cute and make it interesting to the user.
+Another feature I added was a wiggle animation for my icons in the "about me" section. I added the animations because I thought it was cute and make the website more interesting to the user.
 
 ## Personal logo
 
