@@ -97,3 +97,5 @@ Due to limited time, I left out some features.
 I would like to implement a function for the side navigation where it initially appears invisible, and fades in as the user scrolls away from the cover video.
 
 I would also like to fix the smooth scrolling effect in the future.
+
+Another feature I would like to fix is the cover video. Instead of using an iframe tag, I want to find a solution where I can load the video file directly using a video tag.
