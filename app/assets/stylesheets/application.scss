@@ -6,9 +6,13 @@
 }
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 } // This disables horizontal scrolling
+
+.main-heading {
+  text-align: center;
+} // All the headings
 
 .scroll-down-here {
   color: rgba(255, 255, 255, 0.75);
@@ -40,22 +44,23 @@ html, body {
 }
 // END SITE MAP
 
-// NAVIGATION
+// NAVIGATION and VIDEO
 @media (max-width: 767px) {
-   .content-to-hide {
+    .content-to-hide {
       display: none;
    }
    iframe {
-     display:none;
-     height: 0;
-     width: 0;
-     border: 0;
-     border: none;
+      display:none;
+      height: 0;
+      width: 0;
+      border: 0;
+      border: none;
    }
-   .video-background {
-     background-color: black;
+   .video-background, .video-foreground {
+      background-color: black;
+      z-index: 98;
    }
-} /* navigation will disappear when screen becomes too small */
+} /* navigation and video will disappear when screen becomes too small */
 
 .Quick-navigation {
 	position: fixed;
@@ -113,11 +118,11 @@ html, body {
   .video-foreground { width: 300%; left: -100%; }
 }
 @media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
+  .vid-info { width: 50%; padding: .5rem; }
+  .vid-info h1 { margin-bottom: .2rem; }
 }
 @media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
+  .vid-info .acronym { display: none; }
 }
 
 .logo-img img{
@@ -140,9 +145,6 @@ html, body {
   height: 100%;
   min-width: 100%;
   background-size: cover;
-}
-
-.main-heading {
   text-align: center;
 }
 
@@ -164,17 +166,9 @@ html, body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.about-me {
-  text-align: center;
-}
-
-.interests {
-  text-align: center;
 }
 
 .interest-icons {
@@ -182,6 +176,7 @@ html, body {
   padding-left: 10px;
   padding-bottom: 40px;
 }
+
 /*wiggle animation*/
 @-webkit-keyframes spaceboots {
 	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
@@ -365,11 +360,13 @@ time {
   min-width: 100%;
   background-size: cover;
 }
+
 @media (min-width: 768px) {
   .skills-div {
     min-height: 800px;
   }
 }
+
 .skills-heading {
   text-align: center;
   padding-top: 25%;
@@ -379,9 +376,11 @@ time {
 .font-mfizz {
   font-size: 5em;
 }
+
 .skills-list {
   text-align: center;
 }
+
 .fa {
   padding-bottom: 30px;
 }
@@ -449,15 +448,18 @@ time {
   min-width: 100%;
   background-size: cover;
 }
+
 @media (min-width: 768px) {
   .contact-me-div {
     min-height: 800px;
   }
 }
+
 .contact-heading {
   padding-top: 25%;
   padding-bottom: 5%;
 }
+
 .contact-me-icons {
   text-align: center;
   padding-bottom: 2%;
