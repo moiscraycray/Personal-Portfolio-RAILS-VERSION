@@ -52,11 +52,19 @@ Initially, the style was a flat design because it's a trending style and looked 
 
 Since I like websites that required little effort from the user to get to the content, I designed my portfolio the same way: all content is on one page and the user just needs to scroll down to see them.
 
-There is a navigation but instead of going to different pages and having to load them, the screen moves around the page to the section the user wants. To add to the clean style, I tried to add a smooth scrolling effect for a better user experience.
+There is a navigation but instead of going to different pages and having to load them, the screen moves around the page to the section the user wants. To add to the clean style, I added a smooth scrolling effect for a better user experience.
 
-I have two styles of navigation built; one for larger screens and another for mobile devices with smaller screens. The reason for two designs is because I prefer to have the navigation out of the way; as in fixed to the side of the screen without a background so it doesn't make the page look disjointed as if it were a traditional navigation bar at the top. However, mobile devices only have so much screen space, I couldn't fit both the navigation and the content without them overlapping each other. Thus, I built another navigation for this purpose; this a traditional navigation bar fixed to the top of the screen with a collapsable button.
+I have two styles of navigation built; one for larger screens and another for mobile devices with smaller screens, however this means I had to break the sacred rule of DRY. The reason for two designs is because I prefer to have the navigation out of the way; as in fixed to the side of the screen without a background so it doesn't make the page look disjointed as if it were a traditional navigation bar at the top. However, mobile devices only have so much screen space, I couldn't fit both the navigation and the content without them overlapping each other. Thus, I built another navigation for this purpose; this a traditional navigation bar fixed to the top of the screen with a collapsable button. This posed another challenge as the dropdown button didn't function. I found a fix only by simply moving:
+```sh
+//= require jquery3
+```
+below
+```sh
+//= require bootstrap
+```
+in application.js
 
-One of the designs I've seen is the landing title page, the first thing that the user sees. I like websites that have a massive image or video that covers the whole screen with minimal text. I like them because it captures the user's attention and it generally offers a better user experience. Although, I had to break the sacred rule of DRY.
+One of the designs I've seen is the landing title page, the first thing that the user sees. I like websites that have a massive image or video that covers the whole screen with minimal text. I like them because it captures the user's attention and it generally offers a better user experience.
 
 I decided to use a video because I thought it will make the page more interesting to look at and I wasn't sure what photo I would use anyway. I recorded a short 30-second video at the Clovelly cliffs and edited in fade-in and fade-out effects, and a darkened the corners for a vignette effect. I initially had the html find the video file in the same folder but after migrating over to Rails, I am still trying to find a solution for the html to find the video. As an alternative solution, I uploaded the clip to YouTube and used iframe tags to get the video into html. This is not ideal because the video is set to auto-play, and every time the video starts again, it needs to load again with a loading symbol in the centre of the screen.
 
