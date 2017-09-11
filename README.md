@@ -54,15 +54,7 @@ Since I like websites that required little effort from the user to get to the co
 
 There is a navigation but instead of going to different pages and having to load them, the screen moves around the page to the section the user wants. To add to the clean style, I added a smooth scrolling effect for a better user experience.
 
-I have two styles of navigation built; one for larger screens and another for mobile devices with smaller screens, however this means I had to break the sacred rule of DRY. The reason for two designs is because I prefer to have the navigation out of the way; as in fixed to the side of the screen without a background so it doesn't make the page look disjointed as if it were a traditional navigation bar at the top. However, mobile devices only have so much screen space, I couldn't fit both the navigation and the content without them overlapping each other. Thus, I built another navigation for this purpose; this a traditional navigation bar fixed to the top of the screen with a collapsable button. This posed another challenge as the dropdown button didn't function. I found a fix only by simply moving:
-```sh
-//= require jquery3
-```
-below
-```sh
-//= require bootstrap
-```
-in application.js
+I have two styles of navigation built; one for larger screens and another for mobile devices with smaller screens, however this means I had to break the sacred rule of DRY. The reason for two designs is because I prefer to have the navigation out of the way; as in fixed to the side of the screen without a background so it doesn't make the page look disjointed as if it were a traditional navigation bar at the top. However, mobile devices only have so much screen space, I couldn't fit both the navigation and the content without them overlapping each other. Thus, I built another navigation for this purpose; this a traditional navigation bar fixed to the top of the screen with a collapsable button. This posed another challenge as the dropdown button only functions on localhost, but not heroku.
 
 One of the designs I've seen is the landing title page, the first thing that the user sees. I like websites that have a massive image or video that covers the whole screen with minimal text. I like them because it captures the user's attention and it generally offers a better user experience.
 
@@ -112,5 +104,7 @@ The design process was relatively simple and quick; I googled personal logos for
 Due to limited time, I left out some features.
 
 I would like to implement a function for the side navigation where it initially appears invisible, and fades in as the user scrolls away from the cover video.
+
+I would like to fix the dropdown button of the navbar.
 
 Another feature I would like to fix is the cover video. Instead of using an iframe tag, I want to find a solution where I can load the video file directly using a video tag.
