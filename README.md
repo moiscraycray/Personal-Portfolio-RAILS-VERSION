@@ -46,7 +46,7 @@ I've written some notes on the wireframe in Figma on what elements I could use i
 
 # Design
 
-To build the website, I used the [Bootstrap](https://getbootstrap.com/) framework because it already has pre-built classes which would enable me build the portfolio faster. 
+To build the website, I used the [Bootstrap](https://getbootstrap.com/) framework because it already has pre-built classes which would enable me build the portfolio faster.
 
 Initially, the style was a flat design because it's a trending style and looked really good on other websites. However, after putting my elements together on the page and established a MVP, my website looked boring ad nothing stood out. Thus, I added some shadows to some elements to make it look slightly 3D and more appealing.
 
@@ -84,7 +84,12 @@ One of the features I added was fade-in/fade-out effects. Initially, I was resea
 
 Another feature I added was an [animated timeline](https://codepen.io/tutsplus/pen/QNeJgR?q=vertical+timeline&limit=all&type=type-pens) for the experience. I added it in because it feels like an improvement to user experience.
 
-Following Jamie's advice, I also wanted to add a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page. The code worked fine when it's not on rails, but the code didn't want to cooperate when on rails. I found an alternate solution using [jQuery](https://css-tricks.com/snippets/jquery/smooth-scrolling/) but oddly, it only works on local host and not heroku. This works on local host but not when deployed to heroku.
+Following Jamie's advice, I also wanted to add a smooth scrolling effect because it also improved the user experience. Jamie recommended [this](https://github.com/cferdinandi/smooth-scroll) pre-built smooth scrolling code. Before adding the smooth scrolling effect, clicking on the navigation made the page seem to jump around. After adding in the smooth scrolling effect, the user can easily tell they are still on the same page. The code worked fine when it's not on rails, but the code didn't want to cooperate when on rails. I found an alternate solution using [jQuery](https://css-tricks.com/snippets/jquery/smooth-scrolling/) but oddly, it only works on local host and not heroku. I later found a fix for it online; I was missing some scripts from my head:
+
+```sh
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+```
 
 Another feature I added was a wiggle animation for my icons in the "about me" section. I added the animations because I thought it was cute and make the website more interesting to the user.
 
@@ -99,7 +104,5 @@ The design process was relatively simple and quick; I googled personal logos for
 Due to limited time, I left out some features.
 
 I would like to implement a function for the side navigation where it initially appears invisible, and fades in as the user scrolls away from the cover video.
-
-I would also like to fix the smooth scrolling effect in the future.
 
 Another feature I would like to fix is the cover video. Instead of using an iframe tag, I want to find a solution where I can load the video file directly using a video tag.
