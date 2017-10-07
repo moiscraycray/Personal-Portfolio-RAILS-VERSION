@@ -22,7 +22,7 @@ html, body {
 .scroll-down-here span {
   color: rgba(255, 255, 255, 0.75);
   position:relative;
-  bottom: 0;
+  bottom: 1%;
 }
 
 .ultimate-bg { // The background of the entire page
@@ -144,8 +144,8 @@ html, body {
 
 /*ABOUT ME SECTION START*/
 .about-me-div {
-  height: 100%;
-  min-width: 100%;
+  height: 100vh;
+  min-width: 100vh;
   background-size: cover;
   text-align: center;
 }
@@ -156,7 +156,7 @@ html, body {
 
 @media (min-width: 768px) {
   .about-me-div {
-    min-height: 800px;
+    min-height: 100vh;
     margin-top: 13%;
   }
 }
@@ -205,7 +205,8 @@ html, body {
 
 /* EXPERIENCE SECTION*/
 .experience-div {
-  height: 100%;
+  height: 100vh;
+  min-width: 100vh;
   background-size: cover;
 }
 .experience-heading{
@@ -358,7 +359,8 @@ time {
 
 /*SKILLS SECTION*/
 .skills-div {
-  height: 100%;
+  height: 100vh;
+  min-width: 100vh;
   min-width: 100%;
   background-size: cover;
 }
@@ -391,7 +393,8 @@ time {
 
 /*PORTFOLIO SECTION*/
 .works-div {
-  height: 100%;
+  height: 100vh;
+  min-width: 100vh;
   min-width: 100%;
   background-size: cover;
 }
@@ -446,7 +449,8 @@ time {
 
 /*CONTACT ME SECTION*/
 .contact-me-div {
-  height: 100%;
+  height: 100vh;
+  min-width: 100vh;
   min-width: 100%;
   background-size: cover;
 }
@@ -485,14 +489,14 @@ time {
 /*END CONTACT ME SECTION*/
 
 // SITE MAP
-.site-map-heading {
-  text-align: center;
-  margin-top: 20%;
-  font-family: 'Raleway', sans-serif;
-}
-
-.site-map-link {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
+// .site-map-heading {
+//   text-align: center;
+//   margin-top: 20%;
+//   font-family: 'Raleway', sans-serif;
+// }
+//
+// .site-map-link {
+//   text-align: center;
+//   font-family: 'Raleway', sans-serif;
+// }
 // END SITE MAP
